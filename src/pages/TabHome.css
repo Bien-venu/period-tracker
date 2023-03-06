@@ -1,0 +1,90 @@
+.large-card {
+    height: 96%;
+}
+
+ion-card {
+    border-radius: 20px;
+    box-shadow: none !important;
+}
+
+.calendar-button {
+    font-size: 19px;
+    border-radius: 10px;
+    border: 2px rgb(var(--ion-color-basic-rgb)) solid;
+
+    --ion-color-step-300: #ffffff;
+    --ion-text-color: rgb(var(--ion-color-basic-rgb));
+}
+
+.calendar-button:hover {
+    border: 2px rgb(var(--ion-color-dark-basic-rgb)) solid;
+    --ion-text-color: rgb(var(--ion-color-dark-basic-rgb));
+}
+
+@font-face {
+    font-family: "Ionicons";
+    src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1");
+    src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.calendar-button::after {
+    /* content: "📅"; */
+    font-family: "Ionicons";
+    content: "\f117";
+    padding-right: 10px;
+    background-color: #ffffff;
+    color: rgb(var(--ion-color-basic-rgb));
+    text-align: right;
+}
+
+ion-datetime {
+    color: var(--ion-color-dark) !important;
+}
+
+ion-button {
+    --box-shadow: none;
+}
+
+.mark-button {
+    --border-radius: 10px;
+    --color: rgb(var(--ion-color-dark-basic-rgb));
+    --background: rgb(var(--ion-color-opposite-rgb));
+}
+
+.mark-button:hover {
+    border: 2px rgb(var(--ion-color-dark-basic-rgb)) solid;
+    border-radius: 10px;
+}
+
+.info-button {
+    font-size: 10px;
+
+    --border-radius: 10px;
+    --color: rgb(var(--ion-color-dark-basic-rgb));
+    --background: #ffffff;
+}
+
+.info-button:hover {
+    border: 2px rgb(var(--ion-color-dark-basic-rgb)) solid;
+    border-radius: 10px;
+}
+
+ion-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.align-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.transparent {
+    --ion-item-background: transparent;
+}
