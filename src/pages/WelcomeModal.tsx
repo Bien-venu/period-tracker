@@ -118,7 +118,7 @@ const Welcome = (props: PropsWelcomeModal) => {
         <IonModal isOpen={props.isOpen}>
             <IonHeader class="ion-no-border">
                 <IonToolbar color="basic">
-                    <IonTitle color="light">Welcome to Peri</IonTitle>
+                    <IonTitle color="light">Welcome to Period tracker</IonTitle>
                 </IonToolbar>
             </IonHeader>
             <IonContent fullscreen class="gradient">
